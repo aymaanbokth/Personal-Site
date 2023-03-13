@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <script src="https://kit.fontawesome.com/d325768c3e.js" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  <title>DevAymaan Portfolio Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+  <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="logo" data-aos="fade-in" data-aos-duration="1750">
+      <!-- <img src="img\devjane.png" alt=""> -->
+    </div>
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav_item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav_item"><a href="index.html#services" class="nav__link">My Services</a></li>
+        <li class="nav_item"><a href="index.html#about" class="nav__link">About Me</a></li>
+        <li class="nav_item"><a href="index.html#work" class="nav__link">My Work</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div data-aos="fade-in" data-aos-duration="1750">
+    <section class="intro">
+      <h1 class="section__title section__title--intro">
+        <strong>CodeGPT</strong>
+      </h1>
+      <p class="section__subtitle section__subtitle--intro">Your coding companion!</p>
+      <img src="img/codeGPT.jpg" alt="" class="intro__img">
+    </section>
+  </div>
+
+  <div class="portfolio-item-individual" data-aos="fade-in" data-aos-duration="1750">
+    <p>CodeGPT is a ChatGPT clone webapp that I developed using ReactJS, JavaScript, HTML, and CSS. It is a useful coding companion that can help you learn about the many different aspects of computer science.</p>
+    <p>I implemented OpenAI's "text-davinci-003" API algorithm so that the chat bot can recognize and respond to text, with a focus on code and computer science questions.</p>
+    <p>I implemented the server for this webapp in JavaScript and hosted it through Vercel and Render.</p>
+    <p>It is very powerful as an on-the-fly learning companion and research tool, go ahead and give it a try! Click
+      <strong> <a href="https://code-4vp9rxang-aymaanbokth.vercel.app/">here</a> </strong>
+      to visit CodeGPT.
+    </p>
+    <p>You can find the GitHub repository by clicking <strong> <a href="https://github.com/aymaanbokth/CodeGPT/tree/main">here</a> </strong>.</p>
+  </div>
+
+  <!--Footer -->
+  <footer class="footer">
+    <a href="mailto:aabokth@gmail.com" class="footer__link">aabokth@gmail.com</a>
+    <ul class="social-list">
+      <li class="social-list__item"> <a class="social-list__link" href="https://github.com/aymaanbokth"><i class="fa-brands fa-github"></i></a></li>
+      <li class="social-list__item"> <a class="social-list__link" href="https://www.linkedin.com/in/aymaan-bokth-13b448211/"><i class="fa-brands fa-linkedin"></i></a></li>
+      <li class="social-list__item"> <a class="social-list__link" href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+
+  </footer>
+
+  <script src="js\index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
